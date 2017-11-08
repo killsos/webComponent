@@ -8,7 +8,7 @@ class UserCard extends HTMLElement {
 	
 	connectedCallback() {
 	var currentDocument = document.currentScript.ownerDocument;
-	console.log(currentDocument);
+
   // Called when element is inserted in DOM
   const shadowRoot = this.attachShadow({mode: 'open'});
 
